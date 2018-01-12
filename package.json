@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
+    "start": "ng serve --base-href /shark-ng-table-samples/",
+    "build": "ng build --prod --base-href /shark-ng-table-samples/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -23,6 +23,7 @@
     "@angular/router": "^5.1.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
+    "shark-ng-table": "0.0.21",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
