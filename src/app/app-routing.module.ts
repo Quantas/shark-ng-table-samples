@@ -4,6 +4,7 @@ import { BasicComponent } from './samples/basic.component';
 import { ColumnFilteringComponent } from './samples/column-filtering.component';
 import { FooterFilteringComponent } from './samples/footer-filtering.component';
 import { ChildRowsComponent } from './samples/child-rows.component';
+import { CustomCellsComponent } from './samples/custom-cell.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'basic', pathMatch: 'full' },
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: 'basic', component: BasicComponent },
   { path: 'column-filtering', component: ColumnFilteringComponent },
   { path: 'footer-filtering', component: FooterFilteringComponent },
-  { path: 'child-rows', component: ChildRowsComponent }
+  { path: 'child-rows', component: ChildRowsComponent },
+  { path: 'custom-cells', component: CustomCellsComponent },
 ];
 
 @NgModule({

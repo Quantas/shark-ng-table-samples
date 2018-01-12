@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
         <li routerLinkActive="active"><a [routerLink]="['column-filtering']">Column Filtering</a></li>
         <li routerLinkActive="active"><a [routerLink]="['footer-filtering']">Footer Filtering</a></li>
         <li routerLinkActive="active"><a [routerLink]="['child-rows']">Child Rows</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['custom-cells']">Custom Cells</a></li>
       </ul>
     </header>
     <div class="main">

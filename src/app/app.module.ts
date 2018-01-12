@@ -11,6 +11,7 @@ import { ColumnFilteringComponent } from './samples/column-filtering.component';
 import { FooterFilteringComponent } from './samples/footer-filtering.component';
 import { ChildRowsComponent } from './samples/child-rows.component';
 import { ChildRowRenderingComponent } from './samples/child-rows-rendering.component';
+import {CustomCellsComponent, MakeComponent} from './samples/custom-cell.component';
 
 
 @NgModule({
@@ -20,14 +21,16 @@ import { ChildRowRenderingComponent } from './samples/child-rows-rendering.compo
     ColumnFilteringComponent,
     FooterFilteringComponent,
     ChildRowsComponent,
-    ChildRowRenderingComponent
+    ChildRowRenderingComponent,
+    CustomCellsComponent,
+    MakeComponent
   ],
   imports: [
     BrowserModule,
     SharkTableModule,
     AppRoutingModule
   ],
-  entryComponents: [ ChildRowRenderingComponent ],
+  entryComponents: [ ChildRowRenderingComponent, MakeComponent ],
   providers: [ TableDataService ],
   bootstrap: [ AppComponent ]
 })
