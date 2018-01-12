@@ -13,9 +13,9 @@ import { Component } from '@angular/core';
         <li routerLinkActive="active"><a [routerLink]="['footer-filtering']">Footer Filtering</a></li>
       </ul>
     </header>
-    <main>
+    <div class="main">
       <router-outlet></router-outlet>
-    </main>
+    </div>
   `,
   styles: [
     `
@@ -60,7 +60,7 @@ import { Component } from '@angular/core';
         color: white;
       }
 
-      main {
+      .main {
         margin-top: 6.5rem;
       }
     `
