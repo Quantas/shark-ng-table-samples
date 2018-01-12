@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --base-href /shark-ng-table-samples/",
-    "build": "ng build --prod --base-href /shark-ng-table-samples/",
+    "build": "ng build --prod --base-href /shark-ng-table-samples/ --output-path docs",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
