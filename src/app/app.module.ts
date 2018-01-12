@@ -7,8 +7,10 @@ import { AppComponent } from './app.component';
 import { BasicComponent } from './samples/basic.component';
 import { SharkTableModule } from 'shark-ng-table';
 import { TableDataService } from './data.service';
-import {ColumnFilteringComponent} from './samples/column-filtering.component';
-import {FooterFilteringComponent} from './samples/footer-filtering.component';
+import { ColumnFilteringComponent } from './samples/column-filtering.component';
+import { FooterFilteringComponent } from './samples/footer-filtering.component';
+import { ChildRowsComponent } from './samples/child-rows.component';
+import { ChildRowRenderingComponent } from './samples/child-rows-rendering.component';
 
 
 @NgModule({
@@ -16,13 +18,16 @@ import {FooterFilteringComponent} from './samples/footer-filtering.component';
     AppComponent,
     BasicComponent,
     ColumnFilteringComponent,
-    FooterFilteringComponent
+    FooterFilteringComponent,
+    ChildRowsComponent,
+    ChildRowRenderingComponent
   ],
   imports: [
     BrowserModule,
     SharkTableModule,
     AppRoutingModule
   ],
+  entryComponents: [ ChildRowRenderingComponent ],
   providers: [ TableDataService ],
   bootstrap: [ AppComponent ]
 })

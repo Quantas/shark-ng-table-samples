@@ -1,0 +1,11 @@
+import {Component} from '@angular/core';
+import {SharkDynamicContents} from 'shark-ng-table';
+
+@Component({
+  template: `
+    VIN: {{ data.vin }}
+  `
+})
+export class ChildRowRenderingComponent implements SharkDynamicContents {
+  data: any;
+}
