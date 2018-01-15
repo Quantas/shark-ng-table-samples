@@ -6,7 +6,7 @@ import {ChildRowRenderingComponent} from './child-rows-rendering.component';
 @Component({
   template: `
     <h1>Child Rows</h1>
-    <div style="width: 40rem">
+    <div style="width: 45rem">
       <shark-table
         [data]="testData"
         [columns]="tableColumns"
