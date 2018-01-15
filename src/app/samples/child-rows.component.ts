@@ -6,16 +6,18 @@ import {ChildRowRenderingComponent} from './child-rows-rendering.component';
 @Component({
   template: `
     <h1>Child Rows</h1>
-    <shark-table
-      [data]="testData"
-      [columns]="tableColumns"
-      [columnFiltering]="true"
-      [headersInFooter]="true"
-      [footerColumnFiltering]="true"
-      [childRows]="true"
-      [childComponent]="childComponent"
-    >
-    </shark-table>
+    <div style="width: 40rem">
+      <shark-table
+        [data]="testData"
+        [columns]="tableColumns"
+        [columnFiltering]="true"
+        [headersInFooter]="true"
+        [footerColumnFiltering]="true"
+        [childRows]="true"
+        [childComponent]="childComponent"
+      >
+      </shark-table>
+    </div>
 
     <h2>HTML</h2>
     <pre>
