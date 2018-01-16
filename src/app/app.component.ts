@@ -7,15 +7,19 @@ import { Component } from '@angular/core';
       <div class="title">
         shark-ng-table Samples
       </div>
-      <ul class="links">
-        <li routerLinkActive="active"><a [routerLink]="['basic']">Basic</a></li>
-        <li routerLinkActive="active"><a [routerLink]="['column-filtering']">Column Filtering</a></li>
-        <li routerLinkActive="active"><a [routerLink]="['footer-filtering']">Footer Filtering</a></li>
-        <li routerLinkActive="active"><a [routerLink]="['child-rows']">Child Rows</a></li>
-        <li routerLinkActive="active"><a [routerLink]="['custom-cells']">Custom Cells</a></li>
-      </ul>
     </header>
     <div class="main">
+      <ul>
+        <li><a [routerLink]="['basic']">Basic</a></li>
+        <li><a [routerLink]="['filterable']">Filterable</a></li>
+        <li><a [routerLink]="['pageable']">Pageable</a></li>
+        <li><a [routerLink]="['paging-filtering']">Paging and Filtering</a></li>
+        <li><a [routerLink]="['column-filtering']">Column Filtering</a></li>
+        <li><a [routerLink]="['footer-filtering']">Footer Filtering</a></li>
+        <li><a [routerLink]="['child-rows']">Child Rows</a></li>
+        <li><a [routerLink]="['custom-cells']">Custom Cells</a></li>
+      </ul>
+      <div class="clear"></div>
       <router-outlet></router-outlet>
     </div>
   `,
@@ -38,32 +42,21 @@ import { Component } from '@angular/core';
         font-size: 1.5rem;
       }
 
-      .links {
-        margin-left: -3rem;
-        margin-top: 3px;
-        border-top: 1px solid white;
+      ul {
+        width: 50%;
       }
 
-      .links li {
+      .clear {
+        clear: both;
+      }
+
+      li {
         float: left;
-        list-style: none;
-        padding: 8px 16px;
-        width: auto;
-        display: block;
-        border-right: 1px solid white;
-      }
-
-      .active {
-        background-color: darkseagreen;
-      }
-
-      .links li a {
-        text-decoration: none;
-        color: white;
+        width: 24%;
       }
 
       .main {
-        margin-top: 6.5rem;
+        margin-top: 5rem;
       }
     `
   ]

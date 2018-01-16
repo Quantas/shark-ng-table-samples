@@ -4,12 +4,11 @@ import {SharkColumn} from 'shark-ng-table';
 
 @Component({
   template: `
-    <h1>Basic Table</h1>
+    <h1>Filterable Table</h1>
     <div style="width: 30rem">
       <shark-table
         [data]="testData"
         [columns]="tableColumns"
-        [filterable]="false"
         [localPaging]="false"
       >
       </shark-table>
@@ -20,13 +19,13 @@ import {SharkColumn} from 'shark-ng-table';
       &lt;shark-table
         [data]="testData"
         [columns]="tableColumns"
-        [filterable]="false"
-        [localPaging]="false"&gt;
+        [localPaging]="false"
+      &gt;
       &lt;/shark-table&gt;
     </pre>
   `
 })
-export class BasicComponent implements OnInit {
+export class FilterableComponent implements OnInit {
 
   testData = [];
 

@@ -5,11 +5,17 @@ import { ColumnFilteringComponent } from './samples/column-filtering.component';
 import { FooterFilteringComponent } from './samples/footer-filtering.component';
 import { ChildRowsComponent } from './samples/child-rows.component';
 import { CustomCellsComponent } from './samples/custom-cell.component';
+import { FilterableComponent } from './samples/filterable.component';
+import { PageableComponent } from './samples/pageable.component';
+import { PagingAndFilteringComponent } from './samples/paging-filtering.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'basic', pathMatch: 'full' },
 
   { path: 'basic', component: BasicComponent },
+  { path: 'filterable', component: FilterableComponent },
+  { path: 'pageable', component: PageableComponent },
+  { path: 'paging-filtering', component: PagingAndFilteringComponent },
   { path: 'column-filtering', component: ColumnFilteringComponent },
   { path: 'footer-filtering', component: FooterFilteringComponent },
   { path: 'child-rows', component: ChildRowsComponent },
