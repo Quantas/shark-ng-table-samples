@@ -15,6 +15,8 @@ import { ChildRowsComponent } from './samples/child-rows.component';
 import { ChildRowRenderingComponent } from './samples/child-rows-rendering.component';
 import { CustomCellsComponent, MakeComponent } from './samples/custom-cell.component';
 import { PagingAndFilteringComponent } from './samples/paging-filtering.component';
+import { ColumnOrderingComponent } from './samples/column-ordering.component';
+import { ColumnPickerComponent } from './samples/column-picker.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { PagingAndFilteringComponent } from './samples/paging-filtering.componen
     PageableComponent,
     PagingAndFilteringComponent,
     ColumnFilteringComponent,
+    ColumnOrderingComponent,
+    ColumnPickerComponent,
     FooterFilteringComponent,
     ChildRowsComponent,
     ChildRowRenderingComponent,
