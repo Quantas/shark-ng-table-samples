@@ -17,12 +17,14 @@ import { CustomCellsComponent, MakeComponent } from './samples/custom-cell.compo
 import { PagingAndFilteringComponent } from './samples/paging-filtering.component';
 import { ColumnOrderingComponent } from './samples/column-ordering.component';
 import { ColumnPickerComponent } from './samples/column-picker.component';
+import { EverythingComponent } from './samples/everything.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
+    EverythingComponent,
     FilterableComponent,
     PageableComponent,
     PagingAndFilteringComponent,

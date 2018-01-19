@@ -8,4 +8,9 @@ import {SharkDynamicContents} from 'shark-ng-table';
 })
 export class ChildRowRenderingComponent implements SharkDynamicContents {
   data: any;
+
+  childOpen(value: boolean): void {
+    console.log(value);
+  }
+
 }

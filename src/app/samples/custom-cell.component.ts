@@ -68,4 +68,7 @@ export class CustomCellsComponent implements OnInit {
 })
 export class MakeComponent implements SharkDynamicContents {
   data: any;
+
+  childOpen(value: boolean): void {
+  }
 }

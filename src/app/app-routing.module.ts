@@ -10,11 +10,13 @@ import { PageableComponent } from './samples/pageable.component';
 import { PagingAndFilteringComponent } from './samples/paging-filtering.component';
 import { ColumnOrderingComponent } from './samples/column-ordering.component';
 import { ColumnPickerComponent } from './samples/column-picker.component';
+import { EverythingComponent } from './samples/everything.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'basic', pathMatch: 'full' },
 
   { path: 'basic', component: BasicComponent },
+  { path: 'everything', component: EverythingComponent },
   { path: 'filterable', component: FilterableComponent },
   { path: 'pageable', component: PageableComponent },
   { path: 'paging-filtering', component: PagingAndFilteringComponent },
