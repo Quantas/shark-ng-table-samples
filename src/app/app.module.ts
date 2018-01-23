@@ -18,12 +18,14 @@ import { PagingAndFilteringComponent } from './samples/paging-filtering.componen
 import { ColumnOrderingComponent } from './samples/column-ordering.component';
 import { ColumnPickerComponent } from './samples/column-picker.component';
 import { EverythingComponent } from './samples/everything.component';
+import { CellStyleComponent } from './samples/cellstyle.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
+    CellStyleComponent,
     EverythingComponent,
     FilterableComponent,
     PageableComponent,

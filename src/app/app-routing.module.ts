@@ -11,11 +11,13 @@ import { PagingAndFilteringComponent } from './samples/paging-filtering.componen
 import { ColumnOrderingComponent } from './samples/column-ordering.component';
 import { ColumnPickerComponent } from './samples/column-picker.component';
 import { EverythingComponent } from './samples/everything.component';
+import { CellStyleComponent } from './samples/cellstyle.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'basic', pathMatch: 'full' },
 
   { path: 'basic', component: BasicComponent },
+  { path: 'cellstyle', component: CellStyleComponent },
   { path: 'everything', component: EverythingComponent },
   { path: 'filterable', component: FilterableComponent },
   { path: 'pageable', component: PageableComponent },

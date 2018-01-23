@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
       <ul>
         <li><a [routerLink]="['basic']">Basic</a></li>
         <li><a [routerLink]="['everything']">Everything</a></li>
+        <li><a [routerLink]="['cellstyle']">Cell Styling</a></li>
         <li><a [routerLink]="['filterable']">Filterable</a></li>
         <li><a [routerLink]="['pageable']">Pageable</a></li>
         <li><a [routerLink]="['paging-filtering']">Paging and Filtering</a></li>

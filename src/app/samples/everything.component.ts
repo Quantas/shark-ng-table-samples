@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {TableDataService} from '../data.service';
 import {SharkColumn} from 'shark-ng-table';
 import {ChildRowRenderingComponent} from './child-rows-rendering.component';
-import {MakeComponent} from "./custom-cell.component";
+import {MakeComponent} from './custom-cell.component';
 
 @Component({
   template: `
