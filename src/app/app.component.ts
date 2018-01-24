@@ -64,6 +64,12 @@ import { Component } from '@angular/core';
       .menu {
         float: left;
         margin-right: 2rem;
+        height: 100%;
+        width: 12rem;
+      }
+
+      .main {
+        margin-left: 12rem;
       }
     `
   ]

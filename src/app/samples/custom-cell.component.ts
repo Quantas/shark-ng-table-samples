@@ -5,7 +5,7 @@ import {SharkColumn, SharkDynamicContents} from 'shark-ng-table';
 @Component({
   template: `
     <h1>Custom Cells</h1>
-    <div style="width: 40rem">
+    <div style="width: 50rem">
       <shark-table
         [data]="testData"
         [columns]="tableColumns"
