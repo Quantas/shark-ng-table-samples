@@ -7,7 +7,7 @@ import {MakeComponent} from './custom-cell.component';
 @Component({
   template: `
     <h1>Everything (except row links)</h1>
-    <div style="width: 40rem">
+    <div style="width: 55rem">
       <shark-table
         [data]="testData"
         [columns]="tableColumns"

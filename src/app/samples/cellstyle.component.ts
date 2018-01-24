@@ -1,11 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 import {TableDataService} from '../data.service';
-import {CellStyleFunction, SharkColumn} from "shark-ng-table";
+import {CellStyleFunction, SharkColumn} from 'shark-ng-table';
 
 @Component({
   template: `
     <h1>Cell Styling</h1>
-    <div style="width: 30rem">
+    <div style="width: 35rem">
       <shark-table
         [data]="testData"
         [columns]="tableColumns"

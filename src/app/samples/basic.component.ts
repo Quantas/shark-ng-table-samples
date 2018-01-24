@@ -5,7 +5,7 @@ import {SharkColumn} from 'shark-ng-table';
 @Component({
   template: `
     <h1>Basic Table</h1>
-    <div style="width: 30rem">
+    <div style="width: 37rem">
       <shark-table
         [data]="testData"
         [columns]="tableColumns"
