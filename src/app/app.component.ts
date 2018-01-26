@@ -18,7 +18,6 @@ import { Component } from '@angular/core';
           <li><a [routerLink]="['pageable']">Pageable</a></li>
           <li><a [routerLink]="['paging-filtering']">Paging and Filtering</a></li>
           <li><a [routerLink]="['column-filtering']">Column Filtering</a></li>
-          <li><a [routerLink]="['footer-filtering']">Footer Filtering</a></li>
           <li><a [routerLink]="['column-ordering']">Column Ordering</a></li>
           <li><a [routerLink]="['column-picker']">Column Picker</a></li>
           <li><a [routerLink]="['child-rows']">Child Rows</a></li>
