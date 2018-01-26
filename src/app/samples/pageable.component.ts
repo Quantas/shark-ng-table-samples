@@ -10,6 +10,7 @@ import {SharkColumn} from 'shark-ng-table';
         [data]="testData"
         [columns]="tableColumns"
         [filterable]="false"
+        [hideCaption]="true"
       >
       </shark-table>
     </div>
@@ -20,6 +21,7 @@ import {SharkColumn} from 'shark-ng-table';
         [data]="testData"
         [columns]="tableColumns"
         [filterable]="false"
+        [hideCaption]="true"
       &gt;
       &lt;/shark-table&gt;
     </pre>

@@ -10,13 +10,14 @@ import {SharkColumn} from 'shark-ng-table';
         [data]="testData"
         [columns]="tableColumns"
         [columnFiltering]="true"
+        [hideCaption]="true"
       >
       </shark-table>
     </div>
 
     <h2>HTML</h2>
     <pre>
-      &lt;shark-table [data]="testData" [columns]="tableColumns" [columnFiltering]="true"&gt;&lt;/shark-table&gt;
+      &lt;shark-table [data]="testData" [columns]="tableColumns" [columnFiltering]="true" [hideCaption]="true"&gt;&lt;/shark-table&gt;
     </pre>
   `
 })

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BasicComponent } from './samples/basic.component';
 import { ColumnFilteringComponent } from './samples/column-filtering.component';
-import { FooterFilteringComponent } from './samples/footer-filtering.component';
 import { ChildRowsComponent } from './samples/child-rows.component';
 import { CustomCellsComponent } from './samples/custom-cell.component';
 import { FilterableComponent } from './samples/filterable.component';
@@ -23,7 +22,6 @@ const routes: Routes = [
   { path: 'pageable', component: PageableComponent },
   { path: 'paging-filtering', component: PagingAndFilteringComponent },
   { path: 'column-filtering', component: ColumnFilteringComponent },
-  { path: 'footer-filtering', component: FooterFilteringComponent },
   { path: 'column-ordering', component: ColumnOrderingComponent },
   { path: 'column-picker', component: ColumnPickerComponent },
   { path: 'child-rows', component: ChildRowsComponent },

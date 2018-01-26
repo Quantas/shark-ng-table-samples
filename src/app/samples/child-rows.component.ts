@@ -11,10 +11,9 @@ import {ChildRowRenderingComponent} from './child-rows-rendering.component';
         [data]="testData"
         [columns]="tableColumns"
         [columnFiltering]="true"
-        [headersInFooter]="true"
-        [footerColumnFiltering]="true"
         [childRows]="true"
         [childComponent]="childComponent"
+        [hideCaption]="true"
       >
       </shark-table>
     </div>
@@ -25,10 +24,9 @@ import {ChildRowRenderingComponent} from './child-rows-rendering.component';
         [data]="testData"
         [columns]="tableColumns"
         [columnFiltering]="true"
-        [headersInFooter]="true"
-        [footerColumnFiltering]="true"
         [childRows]="true"
         [childComponent]="childComponent"
+        [hideCaption]="true"
       &gt;&lt;/shark-table&gt;
     </pre>
   `

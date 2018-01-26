@@ -16,8 +16,6 @@ import {MakeComponent} from './custom-cell.component';
         [columnFiltering]="true"
         [childRows]="true"
         [childComponent]="childComponent"
-        [headersInFooter]="true"
-        [footerColumnFiltering]="true"
       >
       </shark-table>
     </div>
@@ -32,8 +30,6 @@ import {MakeComponent} from './custom-cell.component';
         [columnFiltering]="true"
         [childRows]="true"
         [childComponent]="childComponent"
-        [headersInFooter]="true"
-        [footerColumnFiltering]="true"
       &lt;/shark-table&gt;
     </pre>
   `

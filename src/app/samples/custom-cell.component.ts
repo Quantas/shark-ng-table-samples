@@ -10,8 +10,7 @@ import {SharkColumn, SharkDynamicContents} from 'shark-ng-table';
         [data]="testData"
         [columns]="tableColumns"
         [columnFiltering]="true"
-        [headersInFooter]="true"
-        [footerColumnFiltering]="true"
+        [hideCaption]="true"
       >
       </shark-table>
     </div>
@@ -22,8 +21,7 @@ import {SharkColumn, SharkDynamicContents} from 'shark-ng-table';
         [data]="testData"
         [columns]="tableColumns"
         [columnFiltering]="true"
-        [headersInFooter]="true"
-        [footerColumnFiltering]="true"
+        [hideCaption]="true"
       &gt;&lt;/shark-table&gt;
     </pre>
   `

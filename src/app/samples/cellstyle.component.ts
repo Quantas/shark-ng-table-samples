@@ -12,6 +12,7 @@ import {CellStyleFunction, SharkColumn} from 'shark-ng-table';
         [filterable]="false"
         [localPaging]="false"
         [cellStylingFunction]="cellStylingFunction"
+        [hideCaption]="true"
       >
       </shark-table>
     </div>
@@ -24,6 +25,7 @@ import {CellStyleFunction, SharkColumn} from 'shark-ng-table';
         [filterable]="false"
         [localPaging]="false"
         [cellStylingFunction]="cellStylingFunction"
+        [hideCaption]="true"
       &gt;
       &lt;/shark-table&gt;
     </pre>

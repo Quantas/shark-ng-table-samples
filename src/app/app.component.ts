@@ -69,7 +69,7 @@ import { Component } from '@angular/core';
       }
 
       .main {
-        margin-left: 12rem;
+        float: left;
       }
     `
   ]

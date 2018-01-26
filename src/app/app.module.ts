@@ -10,7 +10,6 @@ import { PageableComponent } from './samples/pageable.component';
 import { SharkTableModule } from 'shark-ng-table';
 import { TableDataService } from './data.service';
 import { ColumnFilteringComponent } from './samples/column-filtering.component';
-import { FooterFilteringComponent } from './samples/footer-filtering.component';
 import { ChildRowsComponent } from './samples/child-rows.component';
 import { ChildRowRenderingComponent } from './samples/child-rows-rendering.component';
 import { CustomCellsComponent, MakeComponent } from './samples/custom-cell.component';
@@ -33,7 +32,6 @@ import { CellStyleComponent } from './samples/cellstyle.component';
     ColumnFilteringComponent,
     ColumnOrderingComponent,
     ColumnPickerComponent,
-    FooterFilteringComponent,
     ChildRowsComponent,
     ChildRowRenderingComponent,
     CustomCellsComponent,
