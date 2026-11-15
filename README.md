@@ -1,5 +1,6 @@
 # shark-ng-table Samples
 
-## Content Moved to https://www.quantasnet.com/shark-ng-table/
+This repository is archived. The samples are part of the shark-ng-table docs site.
 
-See samples here: https://www.quantasnet.com/shark-ng-table/
+- Docs and live examples: https://shark-ng-table.sharkops.io/
+- Code: https://github.com/sharkops-io/shark-ng-table
